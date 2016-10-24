@@ -22,12 +22,12 @@
         coffeeService.getAllCoffee()
         .then((coffees) => {
           vm.coffee = coffees.data.data;
+          vm.coffeeObj = init();
+          vm.form = false;
         })
         .catch((err) => {
           console.log(err); // handle this error
         });
-        vm.coffeeObj = init();
-        vm.form = false;
       });
     };
     coffeeService.getAllCoffee()
