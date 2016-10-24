@@ -1,1 +1,8 @@
 /* add custom styles */
+h1, td, th {
+  text-align: center;
+}
+
+button {
+  margin-left: 45%;
+}
