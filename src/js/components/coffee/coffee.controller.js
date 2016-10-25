@@ -37,13 +37,7 @@
     .catch((err) => {
       console.log(err);
     });
-    // coffeeService.getSingleCoffee(1)
-    // .then((coffee) => {
-    //   console.log(coffee);
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    // });
+  
   }
 
   function init() {
