@@ -14,7 +14,7 @@
     /*jshint validthis: true */
     //heroku: 'https://rocky-lake-69382.herokuapp.com/coffee/'
 
-    const baseURL = 'http://localhost:8000/coffee/';
+    const baseURL = 'https://rocky-lake-69382.herokuapp.com/coffee/';
     this.getAllCoffee = () => {
       return $http.get(baseURL);
     };
@@ -35,7 +35,7 @@
     /*jshint validthis: true */
     //heroku: 'https://rocky-lake-69382.herokuapp.com/coffee/'
 
-    const baseURL = 'http://localhost:8000/user/';
+    const baseURL = 'https://rocky-lake-69382.herokuapp.com/coffee/';
 
     this.login = (user) => {
       return $http({
